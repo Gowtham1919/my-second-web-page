@@ -28,7 +28,7 @@ a {
   color: #3b82f6;
 }
 
-a:hover a:focus {
+a:hover, a:focus {
   color:#d81d7e;
 }
 
@@ -81,7 +81,7 @@ h1 {
 .Jobs-header-row th {
   border: 1px solid  gray;
   padding: 8px;
-  background-color: #DBEAFE;
+  background-color: #BFDBFE;
   text-align: center;
   color: #222222;
 }
@@ -97,6 +97,45 @@ h1 {
 
 h2 {
   text-align: center;
+}
+
+#application {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+.form-group {
+  padding: 16px 0;
+} 
+
+#application-form label {
+  font-weight: 600;
+}
+
+#application-form input,select ,textarea{
+  padding: 4px;
+  font-size: 1.25rem;
+  margin-top: 4px ;
+  border-radius: 5px;
+  border:1px solid gray;
+}
+
+.form-group textarea{
+  width: 80%;
+  font-family:'Robota',sans-serif;
+}
+
+.form-group input[type='checkbox']{
+  width: 16px;
+  height: 16px;
+}
+
+.form-group input[type='submit']{
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 #jobs {
