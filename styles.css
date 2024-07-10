@@ -1,6 +1,5 @@
 html{
   font-size: 16px;
-  background-color:#FFFEF0
   }
 
 body {
@@ -92,9 +91,10 @@ h1 {
   padding: 8px;
 }
 
-#jobs-table tr:nth-child(odd) {
-  background-color: blue;
+#Jobs-table tr:nth-child(odd) {
+  background-color: #EFF6FF;  
 }
+
 
 h2 {
   text-align: center;
