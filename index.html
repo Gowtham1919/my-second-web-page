@@ -7,7 +7,9 @@
     </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -19,7 +21,7 @@
     <img id="banner" src="banner.jpg" alt="Banner" height="240">
     <h1>
         About Jovian
-    </h1> 
+    </h1>
 
     <div id="about">
         <div id="description">
@@ -55,10 +57,10 @@
 
 
 
-    
+
     <h2>Job Opportunities</h2>
     <div id="jobs">
-        <table  id="Jobs-table">
+        <table id="Jobs-table">
             <tr class="Jobs-header-row">
                 <TH rowspan="2">Job Title</TH>
                 <TH colspan="2">Location</TH>
@@ -105,18 +107,17 @@
         <form id="application-form">
             <div class="form-group">
                 <label for="name">Full Name</label><br>
-                <input type="text" id="name" name="Full Name" required>
+                <input type="text" id="name" name="Full Name" required placeholder="Jovian Name">
             </div>
 
             <div class="form-group">
                 <label for="email">Email</label><br>
-                <input type="email" name="Email Address" id="email" required>
+                <input type="email" name="Email Address" id="email" required placeholder="jovian@gmail.com">
             </div>
 
             <div class="form-group">
-
                 <label for="phone">Phone</label><br>
-                <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
+                <input type="tel" id="phone" name="phone" required placeholder="+91999999999">
             </div>
 
             <div class="form-group">
@@ -139,19 +140,20 @@
                 <label for="resume">Upload Resume</label><br>
                 <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
             </div>
-    
+
             <div class="form-group">
                 <label for="coverletter">Cover Letter</label><br>
-                <textarea id="coverletter" name="coverletter" rows="4"  placeholder="Explain what makes you suitable for the job.."></textarea>
+                <textarea id="coverletter" name="coverletter" rows="2"
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
             </div>
-    
+
             <div class="form-group">
                 <label for="terms">
                     <input type="checkbox" id="terms" name="terms" required>
                     I agree to the terms and conditions
                 </label>
             </div>
-    
+
             <div class="form-group">
                 <input type="submit" value="Submit Application">
             </div>

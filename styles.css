@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+  background-color:#FFFEF0
   }
 
 body {
@@ -92,7 +93,7 @@ h1 {
 }
 
 #jobs-table tr:nth-child(odd) {
-  background-color: ghostwhite;
+  background-color: blue;
 }
 
 h2 {
